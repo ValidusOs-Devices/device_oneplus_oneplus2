@@ -449,7 +449,6 @@ etc/permissions/telephonyservice.xml
 framework/qti-telephony-common.jar|3cea332c3cc179fae5691763c8e55027cc76ffc8
 framework/QtiTelephonyServicelibrary.jar|7c2370674e249cd9637a6b69429fc8362189b79d
 lib64/libparam.so
-vendor/lib64/libcneapiclient.so
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|7688dfdc612ce1515cbe001803d74c6e951b511b
 vendor/bin/qti
 -vendor/lib/libmdmdetect.so
