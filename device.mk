@@ -120,7 +120,6 @@ PRODUCT_PACKAGES += \
     libshim_ims-camera \
     libshim_atomic \
     libshim_cameraparameters \
-    Snap \
     sensors.hal.tof
 
 # DRM
