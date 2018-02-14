@@ -979,3 +979,6 @@ service msm_irqbalance /system/vendor/bin/msm_irqbalance -f /system/vendor/etc/m
     group root
     disabled
     writepid /dev/cpuset/system-background/tasks
+
+#dt2w
+write /proc/touchpanel/double_tap_enable 1
