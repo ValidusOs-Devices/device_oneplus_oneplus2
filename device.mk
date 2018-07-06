@@ -146,8 +146,8 @@ PRODUCT_PACKAGES += \
 
 # Doze mode
 PRODUCT_PACKAGES += \
-    OnePlusDoze
-
+    OneplusDoze
+    
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     e2fsck \
