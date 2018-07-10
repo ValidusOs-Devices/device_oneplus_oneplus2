@@ -119,9 +119,8 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     libqomx_core \
     libshim_atomic \
-    libshim_camera \
     sensors.hal.tof 
-
+   
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl
