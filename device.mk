@@ -354,4 +354,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.est_max_time=600
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, device/oneplus/oneplus2/OppoCommon/common.mk)
