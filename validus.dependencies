@@ -2,7 +2,7 @@
   {
     "repository": "GZR-Kernels/kernel_oneplus_msm8994",
     "target_path": "kernel/oneplus/msm8994",
-    "branch": "8.1"
+    "branch": "8.1.0"
   },
   {
     "repository": "BigTopKrazies/vendor_oneplus2",
