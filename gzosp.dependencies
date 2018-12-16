@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "BigTopKrazies/vendor_oneplus2",
+    "target_path": "vendor/oneplus",
+    "remote": "github",
+    "branch": "9.0-bringup"
+  },
+  {
+    "repository": "GZR-kernels/kernel_oneplus_msm8994",
+    "target_path": "kernel/oneplus/msm8994",
+    "branch": "9.0"
+  }
+]
