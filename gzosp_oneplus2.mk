@@ -22,9 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
 # Inherit aicp's custom configuration
-$(call inherit-product, $(TOPDIR)vendor/aicp/config/common_full_phone.mk)
+$(call inherit-product, $(TOPDIR)vendor/gzosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := aicp_oneplus2
+PRODUCT_NAME := gzosp_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -43,7 +43,3 @@ BUILD_FINGERPRINT := OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447858500:user/rele
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
 
 TARGET_VENDOR := oneplus
-
-# AICP Device Maintainers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Shubh@m (shubhindia)"
