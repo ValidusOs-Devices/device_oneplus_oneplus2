@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/gzosp_oneplus2.mk
+    $(LOCAL_DIR)/validus_oneplus2.mk

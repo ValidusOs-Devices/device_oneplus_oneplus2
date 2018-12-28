@@ -1,3 +1,4 @@
+# Copyright (C) 2019 The Ground Zero Open Source Project
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
@@ -21,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 # Inherit from oneplus2 device
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
-# Inherit aicp's custom configuration
-$(call inherit-product, $(TOPDIR)vendor/gzosp/config/common_full_phone.mk)
+# Inherit ValidusOS custom configuration
+$(call inherit-product, $(TOPDIR)vendor/validus/config/common_full_phone.mk)
 
-PRODUCT_NAME := gzosp_oneplus2
+PRODUCT_NAME := validus_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -36,7 +37,8 @@ TARGET_VENDOR_DEVICE_NAME := OnePlus2
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus2 PRODUCT_NAME=OnePlus2
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus2-user 6.0.1 MMB29M 7 dev-keys"
+    PRIVATE_BUILD_DESC="OnePlus2-user 6.0.1 MMB29M 7 dev-keys" \
+		DEVICE_MAINTAINERS="HardwareAdictos"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447858500:user/release-keys
 
