@@ -108,6 +108,9 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 # Faceunlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Display
+TARGET_SCREEN_DENSITY := 480
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
 
