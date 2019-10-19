@@ -281,9 +281,9 @@ PRODUCT_PACKAGES += \
     init.tfa.sh \
     tinyplay
 
-# Touch
+# TextClassifier
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oneplus2
+    textclassifier.bundle1
 
 # Trust HAL
 PRODUCT_PACKAGES += \
