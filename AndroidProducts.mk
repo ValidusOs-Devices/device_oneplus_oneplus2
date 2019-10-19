@@ -1,4 +1,5 @@
 #
+# Copyright (C) 2019 Ground Zero Open Source Project
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,9 +15,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_oneplus2.mk
+    $(LOCAL_DIR)/gzosp_oneplus2.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_oneplus2-user \
-    lineage_oneplus2-userdebug \
-    lineage_oneplus2-eng
+    gzosp_oneplus2-userdebug
