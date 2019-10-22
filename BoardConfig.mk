@@ -95,7 +95,6 @@ TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
 # Camera
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
-USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/vendor/bin/mm-qcamera-daemon=22
 
@@ -108,9 +107,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap"
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
-
-# GPS
-#USE_DEVICE_SPECIFIC_GPS := true
 
 # Graphics
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x02000000U
