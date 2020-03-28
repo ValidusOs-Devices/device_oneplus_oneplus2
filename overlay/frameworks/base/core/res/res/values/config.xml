@@ -302,4 +302,8 @@
 
     <!-- True if the firmware supports Wi-Fi link probing -->
     <bool name="config_wifi_link_probing_supported">true</bool>
+
+    <!-- Button backlight. -->
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">145</integer>
 </resources>
