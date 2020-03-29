@@ -280,7 +280,7 @@ int LocTimerContainer::getTimerFd() {
 
 void LocTimerContainer::updateSoonestTime(LocTimerDelegate* priorTop) {
     LocTimerDelegate* curTop = getSoonestTimer();
-
+    
     // check if top has changed
     if (curTop != priorTop) {
         struct itimerspec delay = {0};
