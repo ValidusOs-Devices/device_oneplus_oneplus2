@@ -359,4 +359,6 @@
          config_proximityCheckOnWake must be true. -->
     <bool name="config_proximityCheckOnFingerprintWake">false</bool>
 
+    <bool name="config_proxiSensorWakupCheck">true</bool>
+    
 </resources>
