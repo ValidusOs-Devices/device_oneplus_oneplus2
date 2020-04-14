@@ -105,6 +105,9 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
+# Faceunlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
 
